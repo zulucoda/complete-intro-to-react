@@ -2,14 +2,15 @@
  * Created by muzikayise on 2016/10/23.
  */
 const React = require('react')
-const  Layout = (props) => (
+
+const Layout = (props) => (
   <div className="app-container">
     {props.children}
   </div>
 )
 
 const { element } = React.PropTypes
-Layout.protoTypes = {
+Layout.propTypes = {
   children: element.isRequired
 }
 
