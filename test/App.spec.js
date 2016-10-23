@@ -13,7 +13,7 @@ const { shows } = require('../public/data.json')
 describe('<Search />', () => {
   it('should render the brand', () => {
     const wrapper = shallow(<Search />)
-    expect(wrapper.contains(<h1 className="brand">mfb videos</h1>)).to.be.true
+    expect(wrapper.contains(<h1 className='brand'>mfb videos</h1>)).to.be.true
   })
 
   it('should render as many shows as there are data for', () => {
